@@ -44,7 +44,7 @@ A variable will be used to control the five rings.
 
 --- task ---
 
-Create a `rings` {:class="block3variables"} variable and add a `set rings`{:class="block3variables"} block. 
+Create a `rings`{:class="block3variables"} variable and add a `set rings`{:class="block3variables"} block. 
 
 ```blocks3
 when flag clicked
@@ -89,7 +89,7 @@ Each colour ring will be identified by a number from 1 to 5
 
 --- task ---
 
-Add a block to change the `rings` {:class="block3variables"} variable by 1. 
+Add a block to change the `rings`{:class="block3variables"} variable by 1. 
 
 ```blocks3
 when flag clicked

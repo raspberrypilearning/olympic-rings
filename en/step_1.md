@@ -24,8 +24,8 @@ title: What you will need
 
 ### Downloads
 
-+ Download the project [starter file](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} if working offline
-
++ If you are working offline, download the [starter project](https://rpf.io/p/en/olympic-rings-go){:target="_blank"} 
+ 
 --- /collapse ---
 
 --- collapse ---
