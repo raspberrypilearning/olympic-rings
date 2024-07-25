@@ -98,8 +98,6 @@ pen down
 
 --- /task ---
 
---- /task ---
-
 Now do the same for the ring with the variable of 4.
 **Tip** The hex code to use for green is #00A651
 
