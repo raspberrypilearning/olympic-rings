@@ -49,3 +49,13 @@ You can download the completed project [here](https://scratch.mit.edu/projects/1
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/olympic-rings/print){:target="_blank"}.
 
 --- /collapse ---
+
+--- collapse ---
+
+---
+title: Thanks to...
+---
+
+With thanks to Kaye North from Code Club Australia for the [original project](https://www.codeclubau.org/projects/olympic-rings).
+
+--- /collapse ---
