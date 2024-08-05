@@ -2,7 +2,7 @@
 
 You will use the pen tool to draw the Olympic rings accurately. 
 
-Pay close attention to where the rings cross each other and which ring sits on top.
+Pay close attention to where the rings cross each other and which ring sits on top at each overlap.
 
 --- task ---
 
@@ -70,7 +70,7 @@ set [rings v] to (0)
 
 --- /task ---
 
-This code will repeat five times, one for each coloured ring. 
+The next section of code will repeat five times, one for each coloured ring. 
 
 --- task ---
 
