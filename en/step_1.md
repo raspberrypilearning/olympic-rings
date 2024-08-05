@@ -1,6 +1,6 @@
 ### What you will make
 
-Use the pen extension blocks to draw the Olympic Rings, with correct detail about how they overlap.
+You will use the pen extension blocks to draw the Olympic Rings, making sure that they overlap correctly.
 
 --- no-print ---
 
@@ -33,9 +33,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ drawing tools
-+ clones
-+ variables
++ Drawing tools
++ Clones
++ Variables
 
 --- /collapse ---
 
