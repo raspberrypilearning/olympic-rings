@@ -1,0 +1,18 @@
+title: Olympic rings
+hero_image: images/banner.png
+description: Create a program that will accurately draw the Olympic rings.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2024-07-24"
+steps:
+  - title: What you will make
+  - title: Set up the rings
+    completion:
+    - engaged
+  - title: Draw the rings
+    completion:
+    - internal
+  - title: What next?
+    completion:
+    - external
