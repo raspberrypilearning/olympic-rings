@@ -2,13 +2,13 @@
 
 You will use the pen tool to draw the Olympic rings accurately. 
 
-Pay close attention to where the rings lap over and which ring sits on top, to compare to the real Olympic rings.
+Pay close attention to where the rings cross each other and which ring sits on top.
 
 --- task ---
 
-If working **online**, open the [starter project](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} in Scratch.
+If you are working **online**, open the [starter project](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} in Scratch.
  
-If working **offline**, open the project [starter file](https://rpf.io/p/en/olympic-rings-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If you are working **offline**, open the project [starter file](https://rpf.io/p/en/olympic-rings-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
@@ -16,11 +16,11 @@ Add the pen extension blocks.
 
 --- task ---
 
-+ Click on the extension menu in the bottom left corner.
+Click on the extension menu in the bottom left corner.
 
 ![The extension menu](images/extension_menu.png)
 
-+ Choose the pen extension blocks.
+Choose the pen extension blocks.
 
 --- /task ---
 
@@ -57,8 +57,9 @@ Erase any previous drawing.
 
 --- task ---
 
-+ From the pen blocks add an erase all block.
-+ Add a block to set the pen size to 10.
+From the pen blocks, add an erase all block.
+
+Add a block to set the pen size to 10.
 
 ```blocks3
 when flag clicked
@@ -85,7 +86,7 @@ set pen size to (10)
 
 --- /task ---
 
-Each colour ring will be identified by a number from 1 to 5
+Each ring will be identified by a number from 1 to 5.
 
 --- task ---
 
@@ -120,6 +121,6 @@ change [rings v] by (1)
 --- /task ---
 
 **Tip**: You can hide the variable on your screen. 
-+ Right click on the variable box on your screen and select hide.
+Right-click on the variable box on your screen and select hide.
 
 --- save ---
