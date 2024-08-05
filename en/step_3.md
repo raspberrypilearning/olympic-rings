@@ -1,4 +1,4 @@
-## Drawing the rings
+## Draw the rings
 
 --- task ---
 
@@ -27,10 +27,13 @@ The clone that is created with the variable of 1 will follow this program first.
 
 --- task ---
 
-+ Add an `if then`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
-+ Add an `=`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu.
-+ Add the `rings`{:class="block3variables"} reporter from the `Variables`{:class="block3variables"} menu.
-+ Change the `50` to `1`. 
+Add an `if then`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
+
+Add an `=`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu.
+
+Add the `rings`{:class="block3variables"} reporter from the `Variables`{:class="block3variables"} menu.
+
+Change the `50` to `1`. 
 
 ```blocks3
 when I start as a clone
@@ -42,10 +45,13 @@ point in direction (90)
 
 --- task ---
 
- + Add blocks to set the starting position of the first clone.
- + Set the angle to start on. 
- + Set the pen colour to blue (use hex code #0078D0).
- + Add a block to put the pen down.
+Add blocks to set the starting position of the first clone.
+
+Set the angle to start with. 
+
+Set the pen colour to blue (use hex code #0078D0).
+
+Add a block to put the pen down.
 
 ```blocks3
 when I start as a clone
@@ -63,10 +69,13 @@ The ring with the variable of 2 is drawn with different characteristics.
 
 --- task ---
 
-+ Duplicate the if-then block you just created (or drag in the same blocks again). 
-+ Change the starting location.
-+ Change the angle that it starts on. 
-+ Also change the colour to yellow (use hex code #FFB114).
+Duplicate the if-then block you just created (or drag in the same blocks again). 
+
+Change the starting location.
+
+Change the angle that it starts with. 
+
+Also change the colour to yellow (use hex code #FFB114).
 
 ```blocks3
 +if <(rings) = (2)> then
@@ -79,14 +88,17 @@ pen down
 --- /task ---
 
 Now do the same for the ring with the variable of 3.
-**Tip** The hex code to use for black is #000000
+**Tip**: The hex code to use for black is #000000.
 
 --- task ---
 
-+ Duplicate the if-then block again. 
-+ Change the starting location. 
-+ Change the angle that it starts on. 
-+ Also change the colour to black (hex code #000000).
+Duplicate the if-then block again. 
+
+Change the starting location. 
+
+Change the angle that it starts with. 
+
+Also change the colour to black (hex code #000000).
 
 ```blocks3
 +if <(rings) = (3)> then
@@ -99,7 +111,7 @@ pen down
 --- /task ---
 
 Now do the same for the ring with the variable of 4.
-**Tip** The hex code to use for green is #00A651
+**Tip**: The hex code to use for green is #00A651.
 
 --- task ---
 
@@ -114,7 +126,7 @@ pen down
 --- /task ---
 
 Now do the same for the ring with the variable of 5.
-**Tip** The hex code to use for red is #F0282D
+**Tip**: The hex code to use for red is #F0282D.
 
 --- task ---
 
