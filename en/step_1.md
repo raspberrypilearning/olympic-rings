@@ -30,17 +30,6 @@ title: What you will need
 
 --- collapse ---
 ---
-title: What you will learn
----
-
-+ Drawing tools
-+ Clones
-+ Variables
-
---- /collapse ---
-
---- collapse ---
----
 title: Additional information for educators
 ---
 
@@ -50,12 +39,5 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /collapse ---
 
---- collapse ---
 
----
-title: Thanks to...
----
-
-With thanks to Kaye North from Code Club Australia for the [original project](https://www.codeclubau.org/projects/olympic-rings).
-
---- /collapse ---
+With thanks to Kaye North from Code Club Australia for the [original project](https://www.codeclubau.org/projects/olympic-rings)!

@@ -8,7 +8,13 @@ Pay close attention to where the rings cross each other and which ring sits on t
 
 If you are working **online**, open the [starter project](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} in Scratch.
  
-If you are working **offline**, open the project [starter file](https://rpf.io/p/en/olympic-rings-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If you are working **offline**, open the project [starter file](https://rpf.io/p/en/olympic-rings-go){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+
+--- /task ---
+
+--- task ---
+
+Click 'see inside'.
 
 --- /task ---
 
@@ -103,9 +109,12 @@ repeat (5)
 
 --- /task ---
 
+You need five clones (copies), because there are five rings.
+
 --- task ---
 
 Add a block to create a clone of itself and a wait block.
+
 
 ```blocks3
 when flag clicked

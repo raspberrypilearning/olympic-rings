@@ -1,5 +1,7 @@
 ## Draw the rings
 
+In this step, you will set up the starting point and starting direction for each of the rings.
+
 --- task ---
 
 Drag out a `when I start as a clone`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
