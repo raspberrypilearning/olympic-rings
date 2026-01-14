@@ -29,7 +29,7 @@ The clone that is created with the variable of 1 will follow this program first.
 
 --- task ---
 
-Add an `if then`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
+Add an `if then`{:class="block3control"} block from the `Control`{:class="block3control"} blocks menu.
 
 Add an `=`{:class="block3operators"} block from the `Operators`{:class="block3operators"} menu.
 
