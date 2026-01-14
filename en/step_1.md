@@ -11,7 +11,9 @@ You will use the pen extension blocks to draw the Olympic Rings, making sure tha
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/showcase_static.png)
+
 --- /print-only ---
 
 --- collapse ---
