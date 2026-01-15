@@ -122,7 +122,7 @@ erase all
 set pen size to (10)
 repeat (5)
 change [ringen v] by (1)
-+create clone of (myself v)
++create clone of (mijzelf v)
 +wait (0.1) seconds
 ```
 
