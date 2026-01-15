@@ -1,0 +1,19 @@
+---
+title: Olympische ringen
+hero_image: images/banner.png
+description: Maak een programma dat de Olympische ringen nauwkeurig kan tekenen.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2024-07-24"
+steps:
+  - title: Wat ga je maken
+  - title: De ringen opzetten
+    completion:
+    - engaged
+  - title: De ringen tekenen
+    completion:
+    - internal
+  - title: Wat kun je verder nog doen?
+    completion:
+    - external
