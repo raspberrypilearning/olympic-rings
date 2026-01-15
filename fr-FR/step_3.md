@@ -2,7 +2,7 @@
 
 Dans cette étape, tu définiras le point et la direction de départ de chacun des anneaux.
 
-\--- task ---
+--- task ---
 
 Fais glisser un bloc `quand je commence comme un clone`{:class="block3events"} depuis le menu des blocs `Événements`{:class="block3events"}.
 
@@ -10,11 +10,11 @@ Fais glisser un bloc `quand je commence comme un clone`{:class="block3events"} d
 when I start as a clone
 ```
 
-\--- /task ---
+--- /task ---
 
 Assure-toi que le sprite est orienté dans la bonne direction pour commencer à dessiner.
 
-\--- task ---
+--- task ---
 
 Ajoute un bloc `s'orienter à 90`{:class="block3motion"} depuis le menu des blocs `Mouvement`{:class="block3motion"}.
 
@@ -23,11 +23,11 @@ when I start as a clone
 +point in direction (90)
 ```
 
-\--- /task ---
+--- /task ---
 
 Le clone créé avec la variable 1 suivra ce programme en premier.
 
-\--- task ---
+--- task ---
 
 Ajoute un bloc `si alors`{:class="block3control"} depuis le menu des blocs `Contrôle`{:class="block3control"}.
 
@@ -43,9 +43,9 @@ point in direction (90)
 +if <(rings) = (1)> then
 ```
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 Ajoute des blocs pour définir la position de départ du premier clone.
 
@@ -65,11 +65,11 @@ if <(rings) = (1)> then
 +pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 L'anneau comportant la variable 2 est dessiné avec des caractéristiques différentes.
 
-\--- task ---
+--- task ---
 
 Duplique le bloc si alors que tu viens de créer (ou fais glisser à nouveau les mêmes blocs).
 
@@ -87,12 +87,12 @@ set pen color to (#FFB114)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Fais maintenant la même chose pour l'anneau avec la variable 3.
 **Astuce** : le code hexadécimal à utiliser pour le noir est #000000.
 
-\--- task ---
+--- task ---
 
 Duplique à nouveau le bloc si alors.
 
@@ -110,12 +110,12 @@ set pen color to (#000000)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Fais maintenant la même chose pour l'anneau avec la variable 4.
 **Astuce** : le code hexadécimal à utiliser pour le vert est #00A651.
 
-\--- task ---
+--- task ---
 
 ```blocks3
 +if <(rings) = (4)> then
@@ -125,12 +125,12 @@ set pen color to (#00A651)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Fais maintenant la même chose pour l'anneau avec la variable 5.
 **Astuce** : le code hexadécimal à utiliser pour le rouge est #F0282D.
 
-\--- task ---
+--- task ---
 
 ```blocks3
 +if <(rings) = (5)> then
@@ -140,11 +140,11 @@ set pen color to (#F0282D)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Maintenant que tu as défini le point de départ et la direction de chaque clone, il est temps de le faire dessiner !
 
-\--- task ---
+--- task ---
 
 Ajoute un bloc « répéter » en bas.
 
@@ -162,10 +162,10 @@ end
 pen up
 ```
 
-\--- /task ---
+--- /task ---
 
 Teste ton code.
 
 Tu devrais voir les anneaux olympiques dessinés !
 
-\--- save ---
+--- save ---

@@ -2,23 +2,24 @@
 
 Tu vas utiliser les blocs d'extension Stylo pour dessiner les anneaux olympiques, en veillant à ce qu'ils se chevauchent correctement.
 
-\--- no-print ---
+--- no-print ---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1048245134/?autostart=false" frameborder="0"></iframe>
 </div>
 
-\--- /no-print ---
+--- /no-print ---
 
-\--- print-only ---
+--- print-only ---
 
 ![Projet terminé](images/showcase_static.png)
 
-\--- /print-only ---
+--- /print-only ---
 
-## --- collapse ---
-
-## title: Ce qu'il te faudra
+--- collapse ---
+---
+title: Ce qu'il te faudra
+---
 
 ### Logiciel
 
@@ -26,18 +27,19 @@ Tu vas utiliser les blocs d'extension Stylo pour dessiner les anneaux olympiques
 
 ### Téléchargements
 
-- Si tu travailles hors ligne, télécharge le [projet de démarrage](https://rpf.io/p/en/olympic-rings-go){:target="_blank"}
+- Si tu travailles hors ligne, télécharge le [projet de démarrage](https://rpf.io/p/fr-FR/olympic-rings-go){:target="_blank"}
 
-\--- /collapse ---
+--- /collapse ---
 
-## --- collapse ---
-
-## title: Informations complémentaires pour les éducateur·rice·s
+--- collapse ---
+---
+title: Informations complémentaires pour les éducateur·rice·s
+---
 
 Tu peux télécharger le projet terminé [ici](https://scratch.mit.edu/projects/1048245134){:target="_blank"}.
 
-Si tu dois imprimer ce projet, utilise la [version imprimable](https://projects.raspberrypi.org/en/projects/olympic-rings/print){:target="_blank"}.
+Si tu dois imprimer ce projet, utilise la [version imprimable](https://projects.raspberrypi.org/fr-FR/projects/olympic-rings/print){:target="_blank"}.
 
-\--- /collapse ---
+--- /collapse ---
 
 Merci à Kaye North de Code Club Australia pour le [projet original](https://www.codeclubau.org/projects/olympic-rings) !
