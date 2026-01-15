@@ -1,3 +1,4 @@
+---
 title: Olympische ringen
 hero_image: images/banner.png
 description: Maak een programma dat de Olympische ringen nauwkeurig kan tekenen.
@@ -9,10 +10,10 @@ steps:
   - title: Wat ga je maken
   - title: De ringen opzetten
     completion:
-    - engaged
+      - engaged
   - title: De ringen tekenen
     completion:
-    - internal
+      - internal
   - title: Wat kun je verder nog doen?
     completion:
-    - external
+      - external

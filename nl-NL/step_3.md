@@ -2,7 +2,7 @@
 
 In deze stap bepaal je het startpunt en de startrichting voor elk van de ringen.
 
-\--- task ---
+--- task ---
 
 Sleep een `wanneer ik als kloon start`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} blokkenmenu.
 
@@ -10,11 +10,11 @@ Sleep een `wanneer ik als kloon start`{:class="block3events"} blok uit het `Gebe
 when I start as a clone
 ```
 
-\--- /task ---
+--- /task ---
 
 Zorg ervoor dat de sprite in de juiste richting wijst voordat je begint met tekenen.
 
-\--- task ---
+--- task ---
 
 Voeg een `richt naar 90 graden`{:class="block3motion"} blok toe vanuit het `Beweging`{:class="block3motion"} blokkenmenu.
 
@@ -23,11 +23,11 @@ when I start as a clone
 +point in direction (90)
 ```
 
-\--- /task ---
+--- /task ---
 
 De kloon die met de variabelewaarde 1 wordt aangemaakt, zal dit programma als eerste uitvoeren.
 
-\--- task ---
+--- task ---
 
 Voeg een `als dan`{:class="block3control"}-blok toe vanuit het menu met `Besturen`{:class="block3control"}-blokken.
 
@@ -43,9 +43,9 @@ point in direction (90)
 +if <(rings) = (1)> then
 ```
 
-\--- /task ---
+--- /task ---
 
-\--- task ---
+--- task ---
 
 Voeg blokken toe om de startpositie van de eerste kloon in te stellen.
 
@@ -65,11 +65,11 @@ if <(rings) = (1)> then
 +pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 De ring met de variabelewaarde 2 wordt getekend met andere kenmerken.
 
-\--- task ---
+--- task ---
 
 Dupliceer het als dan-blok dat je zojuist hebt gemaakt (of sleep dezelfde blokken er opnieuw in).
 
@@ -87,12 +87,12 @@ set pen color to (#FFB114)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Doe nu hetzelfde voor de ring met de variabelewaarde 3.
 **Tip**: De hexcode voor zwart is #000000.
 
-\--- task ---
+--- task ---
 
 Dupliceer het als dan-blok opnieuw.
 
@@ -110,12 +110,12 @@ set pen color to (#000000)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Doe nu hetzelfde voor de ring met de variabelewaarde 4.
 **Tip**: De hexcode voor groen is #00A651.
 
-\--- task ---
+--- task ---
 
 ```blocks3
 +if <(rings) = (4)> then
@@ -125,12 +125,12 @@ set pen color to (#00A651)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Doe nu hetzelfde voor de ring met de variabelewaarde 5.
 **Tip**: De hexcode voor rood is #F0282D.
 
-\--- task ---
+--- task ---
 
 ```blocks3
 +if <(rings) = (5)> then
@@ -140,11 +140,11 @@ set pen color to (#F0282D)
 pen down
 ```
 
-\--- /task ---
+--- /task ---
 
 Nu je de startlocatie en -richting voor elke kloon hebt ingesteld, is het tijd om hem te laten tekenen!
 
-\--- task ---
+--- task ---
 
 Voeg onderaan een herhaalblok toe.
 
@@ -162,10 +162,10 @@ end
 pen up
 ```
 
-\--- /task ---
+--- /task ---
 
 Test je code.
 
 Je zou moeten zien hoe de Olympische ringen worden getekend!
 
-\--- save ---
+--- save ---
