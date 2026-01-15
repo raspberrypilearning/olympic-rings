@@ -40,7 +40,7 @@ Verander de `50` in `1`.
 ```blocks3
 when I start as a clone
 point in direction (90)
-+if <(rings) = (1)> then
++if <(ringen) = (1)> then
 ```
 
 --- /task ---
@@ -58,7 +58,7 @@ Voeg een blokj toe om de pen neer te zetten.
 ```blocks3
 when I start as a clone
 point in direction (90)
-if <(rings) = (1)> then
+if <(ringen) = (1)> then
 +go to x: (-116) y: (-20)
 +turn cw (156) degrees
 +set pen color to (#0078D0)
@@ -80,7 +80,7 @@ Verander de beginhoek.
 Verander de kleur naar geel (gebruik hexcode #FFB114).
 
 ```blocks3
-+if <(rings) = (2)> then
++if <(ringen) = (2)> then
 go to x: (-13) y: (-13)
 turn cw (78) degrees
 set pen color to (#FFB114)
@@ -103,7 +103,7 @@ Verander de beginhoek.
 Verander de kleur naar zwart (hexcode #000000).
 
 ```blocks3
-+if <(rings) = (3)> then
++if <(ringen) = (3)> then
 go to x: (-56) y: (19)
 turn cw (-102) degrees
 set pen color to (#000000)
@@ -118,7 +118,7 @@ Doe nu hetzelfde voor de ring met de variabelewaarde 4.
 --- task ---
 
 ```blocks3
-+if <(rings) = (4)> then
++if <(ringen) = (4)> then
 go to x: (46) y: (28)
 turn cw (-24) degrees
 set pen color to (#00A651)
@@ -133,7 +133,7 @@ Doe nu hetzelfde voor de ring met de variabelewaarde 5.
 --- task ---
 
 ```blocks3
-+if <(rings) = (5)> then
++if <(ringen) = (5)> then
 go to x: (85) y: (20)
 turn cw (-102) degrees
 set pen color to (#F0282D)

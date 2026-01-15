@@ -54,7 +54,7 @@ Maak een variabele `ringen`{:class="block3variables"} aan en voeg een `maak ring
 
 ```blocks3
 when flag clicked
-+set [rings v] to (0)
++set [ringen v] to (0)
 ```
 
 --- /task ---
@@ -69,7 +69,7 @@ Voeg een blok toe om de pengrootte op 10 in te stellen.
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [ringen v] to (0)
 +erase all
 +set pen size to (10)
 ```
@@ -84,7 +84,7 @@ Voeg een herhaal blok toe.
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [ringen v] to (0)
 erase all
 set pen size to (10)
 +repeat (5)
@@ -100,11 +100,11 @@ Voeg een blok toe om de variabele `ringen`{:class="block3variables"} met 1 te ve
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [ringen v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-+change [rings v] by (1)
++change [ringen v] by (1)
 ```
 
 --- /task ---
@@ -117,11 +117,11 @@ Voeg een blok toe om een kloon van zichzelf te maken en een wachtblok.
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [ringen v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-change [rings v] by (1)
+change [ringen v] by (1)
 +create clone of (myself v)
 +wait (0.1) seconds
 ```
