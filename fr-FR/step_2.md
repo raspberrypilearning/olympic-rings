@@ -8,7 +8,7 @@ Fais bien attention à l’endroit où les anneaux se croisent et à quel anneau
 
 Si tu travailles **en ligne**, ouvre le [projet de démarrage](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} dans Scratch.
 
-Si tu travailles **hors ligne**, ouvre le [fichier de démarrage] du projet (https://rpf.io/p/fr-FR/olympic-rings-go){:target="_blank"} dans l'éditeur hors ligne de Scratch. Si tu dois télécharger et installer Scratch, tu peux le trouver [ici](https://scratch.mit.edu/download){:target="_blank"}.
+Si tu travailles **hors ligne**, ouvre le [fichier de démarrage](https://rpf.io/p/fr-FR/olympic-rings-go){:target="_blank"} du projet dans l'éditeur hors ligne de Scratch. Si tu dois télécharger et installer Scratch, tu peux le trouver [ici](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
@@ -54,7 +54,7 @@ Crée une variable `anneaux`{:class="block3variables"} et ajoute un bloc `mettre
 
 ```blocks3
 when flag clicked
-+set [rings v] to (0)
++set [anneaux v] to (0)
 ```
 
 --- /task ---
@@ -69,7 +69,7 @@ Ajoute un bloc pour mettre la taille du stylo à 10.
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [anneaux v] to (0)
 +erase all
 +set pen size to (10)
 ```
@@ -84,7 +84,7 @@ Ajoute un bloc « répéter ».
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [anneaux v] to (0)
 erase all
 set pen size to (10)
 +repeat (5)
@@ -100,11 +100,11 @@ Ajoute un bloc pour ajouter la variable `anneaux`{:class="block3variables"} à 1
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [anneaux v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-+change [rings v] by (1)
++change [anneaux v] by (1)
 ```
 
 --- /task ---
@@ -117,12 +117,12 @@ Ajoute un bloc pour créer un clone de lui-même et un bloc « attendre ».
 
 ```blocks3
 when flag clicked
-set [rings v] to (0)
+set [anneaux v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-change [rings v] by (1)
-+create clone of (myself v)
+change [anneaux v] by (1)
++create clone of (moi-même v)
 +wait (0.1) seconds
 ```
 

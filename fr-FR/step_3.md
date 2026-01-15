@@ -40,7 +40,7 @@ Remplace le `50` par `1`.
 ```blocks3
 when I start as a clone
 point in direction (90)
-+if <(rings) = (1)> then
++if <(anneaux) = (1)> then
 ```
 
 --- /task ---
@@ -58,7 +58,7 @@ Ajoute un bloc pour mettre le stylo en position d'écriture.
 ```blocks3
 when I start as a clone
 point in direction (90)
-if <(rings) = (1)> then
+if <(anneaux) = (1)> then
 +go to x: (-116) y: (-20)
 +turn cw (156) degrees
 +set pen color to (#0078D0)
@@ -80,7 +80,7 @@ Modifie l'angle initial.
 Modifie également la couleur sur jaune (utilise le code hexadécimal #FFB114).
 
 ```blocks3
-+if <(rings) = (2)> then
++if <(anneaux) = (2)> then
 go to x: (-13) y: (-13)
 turn cw (78) degrees
 set pen color to (#FFB114)
@@ -103,7 +103,7 @@ Modifie l'angle initial.
 Modifie également la couleur sur noir (code hexadécimal #000000).
 
 ```blocks3
-+if <(rings) = (3)> then
++if <(anneaux) = (3)> then
 go to x: (-56) y: (19)
 turn cw (-102) degrees
 set pen color to (#000000)
@@ -118,7 +118,7 @@ Fais maintenant la même chose pour l'anneau avec la variable 4.
 --- task ---
 
 ```blocks3
-+if <(rings) = (4)> then
++if <(anneaux) = (4)> then
 go to x: (46) y: (28)
 turn cw (-24) degrees
 set pen color to (#00A651)
@@ -133,7 +133,7 @@ Fais maintenant la même chose pour l'anneau avec la variable 5.
 --- task ---
 
 ```blocks3
-+if <(rings) = (5)> then
++if <(anneaux) = (5)> then
 go to x: (85) y: (20)
 turn cw (-102) degrees
 set pen color to (#F0282D)

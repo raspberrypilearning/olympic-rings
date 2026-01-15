@@ -10,10 +10,10 @@ steps:
   - title: Ce que tu vas faire
   - title: Mettre en place les anneaux
     completion:
-      - engaged
+    - engaged
   - title: Dessiner les anneaux
     completion:
-      - internal
+    - internal
   - title: Et ensuite ?
     completion:
-      - external
+    - external
