@@ -1,0 +1,19 @@
+---
+title: Anneaux olympiques
+hero_image: images/banner.png
+description: Crée un programme qui dessinera avec précision les anneaux olympiques.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2024-07-24"
+steps:
+  - title: Ce que tu vas faire
+  - title: Mettre en place les anneaux
+    completion:
+      - engaged
+  - title: Dessiner les anneaux
+    completion:
+      - internal
+  - title: Et ensuite ?
+    completion:
+      - external
