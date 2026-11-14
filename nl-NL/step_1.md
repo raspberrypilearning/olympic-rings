@@ -2,24 +2,23 @@
 
 Je gebruikt de pen-uitbreidingsblokken om de Olympische ringen te tekenen, om er voor te zorgen dat ze elkaar correct overlappen.
 
---- no-print ---
+\--- no-print ---
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1048245134/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+\--- /no-print ---
 
---- print-only ---
+\--- print-only ---
 
 ![Voltooid project](images/showcase_static.png)
 
---- /print-only ---
+\--- /print-only ---
 
---- collapse ---
----
-title: Wat heb je nodig
----
+## --- collapse ---
+
+## title: Wat heb je nodig
 
 ### Software
 
@@ -27,19 +26,18 @@ title: Wat heb je nodig
 
 ### Downloads
 
-- Als je offline werkt, download dan het [startproject](https://rpf.io/p/nl-NL/olympic-rings-go){:target="_blank"}
+- Als je offline werkt, download dan het [startproject](https://rpf.io/p/en/olympic-rings-go){:target="_blank"}
 
---- /collapse ---
+\--- /collapse ---
 
---- collapse ---
----
-title: Aanvullende informatie voor docenten
----
+## --- collapse ---
+
+## title: Aanvullende informatie voor docenten
 
 Je kunt het voltooide project [hier](https://scratch.mit.edu/projects/1048245134){:target="_blank"} downloaden.
 
-Als je dit project wil afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/olympic-rings/print){:target="_blank"}.
+Als je dit project wil afdrukken, gebruik dan de [printervriendelijke versie](https://projects.raspberrypi.org/en/projects/olympic-rings/print){:target="_blank"}.
 
---- /collapse ---
+\--- /collapse ---
 
 Met dank aan Kaye North van Code Club Australia voor het [oorspronkelijke project](https://www.codeclubau.org/projects/olympic-rings)!
