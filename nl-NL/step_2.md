@@ -4,23 +4,23 @@ Je gebruikt het pen-gereedschap om de Olympische ringen nauwkeurig te tekenen.
 
 Let goed op waar de ringen elkaar kruisen en welke ring bij elke overlapping bovenop ligt.
 
---- task ---
+\--- task ---
 
 Als je **online** werkt, open dan het [startproject](https://scratch.mit.edu/projects/1048263697/){:target="_blank"} in Scratch.
 
-Als je **offline** werkt, open dan het project [startbestand](https://rpf.io/p/nl-NL/olympic-rings-go){:target="_blank"} in de offline-editor van Scratch. Als je Scratch wilt downloaden en installeren, kun je het [hier](https://scratch.mit.edu/download){:target="_blank"} vinden.
+Als je **offline** werkt, open dan het project [startbestand](https://rpf.io/p/en/olympic-rings-go){:target="_blank"} in de offline-editor van Scratch. Als je Scratch wilt downloaden en installeren, kun je het [hier](https://scratch.mit.edu/download){:target="_blank"} vinden.
 
---- /task ---
+\--- /task ---
 
---- task ---
+\--- task ---
 
 Klik op 'Bekijk van binnen'.
 
---- /task ---
+\--- /task ---
 
 Voeg de pen-uitbreidingsblokken toe.
 
---- task ---
+\--- task ---
 
 Klik op het extensiemenu in de linkerbenedenhoek.
 
@@ -28,15 +28,15 @@ Klik op het extensiemenu in de linkerbenedenhoek.
 
 Kies de pen-uitbreidingsblokken.
 
---- /task ---
+\--- /task ---
 
---- task ---
+\--- task ---
 
 Selecteer de dot-sprite.
 
---- /task ---
+\--- /task ---
 
---- task ---
+\--- task ---
 
 Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok uit het `Gebeurtenissen`{:class="block3events"} blokkenmenu.
 
@@ -44,24 +44,24 @@ Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok uit
 when flag clicked
 ```
 
---- /task ---
+\--- /task ---
 
 Een variabele zal worden gebruikt om de vijf ringen te besturen.
 
---- task ---
+\--- task ---
 
 Maak een variabele `ringen`{:class="block3variables"} aan en voeg een `maak ringen`{:class="block3variables"} blok toe.
 
 ```blocks3
 when flag clicked
-+set [ringen v] to (0)
++set [rings v] to (0)
 ```
 
---- /task ---
+\--- /task ---
 
 Wis alle eerdere tekeningen.
 
---- task ---
+\--- task ---
 
 Voeg vanuit de penblokken een wisblok toe.
 
@@ -69,66 +69,66 @@ Voeg een blok toe om de pengrootte op 10 in te stellen.
 
 ```blocks3
 when flag clicked
-set [ringen v] to (0)
+set [rings v] to (0)
 +erase all
 +set pen size to (10)
 ```
 
---- /task ---
+\--- /task ---
 
 Het volgende stukje code wordt vijf keer herhaald, één keer voor elke gekleurde ring.
 
---- task ---
+\--- task ---
 
 Voeg een herhaal blok toe.
 
 ```blocks3
 when flag clicked
-set [ringen v] to (0)
+set [rings v] to (0)
 erase all
 set pen size to (10)
 +repeat (5)
 ```
 
---- /task ---
+\--- /task ---
 
 Elke ring wordt aangeduid met een nummer van 1 tot en met 5.
 
---- task ---
+\--- task ---
 
 Voeg een blok toe om de variabele `ringen`{:class="block3variables"} met 1 te veranderen.
 
 ```blocks3
 when flag clicked
-set [ringen v] to (0)
+set [rings v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-+change [ringen v] by (1)
++change [rings v] by (1)
 ```
 
---- /task ---
+\--- /task ---
 
 Je hebt vijf klonen (kopieën) nodig, omdat er vijf ringen zijn.
 
---- task ---
+\--- task ---
 
 Voeg een blok toe om een kloon van zichzelf te maken en een wachtblok.
 
 ```blocks3
 when flag clicked
-set [ringen v] to (0)
+set [rings v] to (0)
 erase all
 set pen size to (10)
 repeat (5)
-change [ringen v] by (1)
-+create clone of (mijzelf v)
+change [rings v] by (1)
++create clone of (myself v)
 +wait (0.1) seconds
 ```
 
---- /task ---
+\--- /task ---
 
 **Tip**: Je kunt de variabele op je scherm verbergen.
 Klik met de rechtermuisknop op het variabele vakje op je scherm en selecteer 'verdwijn'.
 
---- save ---
+\--- save ---
